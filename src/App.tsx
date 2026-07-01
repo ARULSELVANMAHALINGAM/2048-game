@@ -57,16 +57,19 @@ export default function App() {
         
         {/* Top Header Section */}
         <header id="game-header" className="w-full flex flex-col sm:flex-row items-center justify-between gap-3 mb-4 select-none pb-3 border-b border-slate-200/50">
-          <div className="text-center sm:text-left">
-            <h1
-              id="app-title"
-              className={`text-4xl md:text-5xl font-black tracking-tighter leading-none select-none ${activeTheme.titleColor}`}
-            >
-              2048
-            </h1>
-            <p className="text-[#94A3B8] text-[10px] font-bold tracking-widest uppercase mt-1">
-              GRANDMASTER PREMIUM EDITION
-            </p>
+          <div className="flex items-center gap-3 justify-center sm:justify-start">
+            <img src="/logo.png" alt="2048 Game Logo" className="w-12 h-12 rounded-xl shadow-md border border-slate-200/20" />
+            <div className="text-left">
+              <h1
+                id="app-title"
+                className={`text-4xl md:text-5xl font-black tracking-tighter leading-none select-none ${activeTheme.titleColor}`}
+              >
+                2048
+              </h1>
+              <p className="text-[#94A3B8] text-[10px] font-bold tracking-widest uppercase mt-1">
+                GRANDMASTER PREMIUM EDITION
+              </p>
+            </div>
           </div>
 
           {/* User Coin Balance HUD */}
