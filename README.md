@@ -1,6 +1,7 @@
 # 🎮 2048: Grandmaster Premium Edition
 
-Developed by **arulselvanmahalingam**
+Developed by **arulselvanmahalingam**  
+🔗 **Live Demo:** [2048.arulselvan.dev](https://2048.arulselvan.dev)
 
 Welcome to **2048: Grandmaster Premium Edition**, a feature-rich, high-fidelity, polished reimagining of the classic 2048 sliding-tile puzzle game. Built with **React 19**, **TypeScript**, **Vite**, **Tailwind CSS**, and **Express**, this version introduces persistent achievements, an in-game coin economy, tactical powerups, and beautiful theme customization.
 
